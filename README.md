@@ -34,7 +34,7 @@ The project involves several key steps:
 
 ### Prerequisites
 
-- Python 3.7 or higher
+- Python 3.11
 - Jupyter Notebook
 - Poetry for dependency management
 
