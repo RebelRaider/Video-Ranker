@@ -128,13 +128,13 @@ jupyter notebook Video-Ranker.ipynb
 ``` markdown
 Video-Ranker/
 │
-├── Video-Ranker.ipynb     # Jupyter notebook with the entire workflow
-├── pyproject.toml                # Poetry configuration file
-├── poetry.lock                   # Poetry lock file with exact versions of dependencies
-├── requirements.txt              # Python dependencies
-├── README.md                     # Project documentation
+├── Video-Ranker.ipynb          # Jupyter notebook with the entire workflow
+├── pyproject.toml              # Poetry configuration file
+├── poetry.lock                 # Poetry lock file with exact versions of dependencies
+├── requirements.txt            # Python dependencies
+├── README.md                   # Project documentation
 │
-└── data/                         # Directory to store downloaded data files
+└── data/                       # Directory to store downloaded data files
 ```
 
 ## Contributing
