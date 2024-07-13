@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "video-ranking-model"
+version = "0.1.0"
+description = "This project aims to build a video ranking model using FAISS and CatBoostRanker. The model leverages Sentence Transformers for embedding video titles and uses a variety of features for ranking videos."
+authors = ["Леонид Чесников <leonid.chesnikov@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "<2.0.0"
+pandas = "^2.2.2"
+requests = "^2.32.3"
+faiss-cpu = "^1.8.0.post1"
+catboost = "^1.2.5"
+sentence-transformers = "^3.0.1"
+shap = "^0.46.0"
+matplotlib = "^3.9.1"
+pyarrow = "^16.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
