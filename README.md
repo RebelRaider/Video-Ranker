@@ -1,10 +1,10 @@
-# Video Ranking Model
+# Video Ranker
 
 This project aims to build a video ranking model using FAISS and CatBoostRanker. The model leverages Sentence Transformers for embedding video titles and uses a variety of features for ranking videos.
 
 ## Table of Contents
 
-- [Video Ranking Model](#video-ranking-model)
+- [Video Ranker](#video-ranker)
   - [Table of Contents](#table-of-contents)
   - [Overview](#overview)
   - [Setup and Installation](#setup-and-installation)
@@ -43,8 +43,8 @@ The project involves several key steps:
 First, clone the repository:
 
 ```sh
-git clone https://github.com/yourusername/video-ranking-model.git
-cd video-ranking-model
+git clone https://github.com/RebelRaider/Video-Ranker.git
+cd Video-Ranker
 ```
 
 Install `poetry` if you haven't already:
@@ -70,7 +70,7 @@ poetry shell
 Alternatively, you can run commands within the virtual environment using `poetry run`:
 
 ```sh
-poetry run jupyter notebook video_ranking_model.ipynb
+poetry run jupyter notebook Video-Ranker.ipynb
 ```
 
 ## Configuration
@@ -111,7 +111,7 @@ class Config:
 
 1. Open the Jupyter Notebook:
 
-jupyter notebook video_ranking_model.ipynb
+jupyter notebook Video-Ranker.ipynb
 
 1. Follow the steps in the notebook to:
    - Download data files.
@@ -125,15 +125,17 @@ jupyter notebook video_ranking_model.ipynb
 
 ## Project Structure
 
-video-ranking-model/
+``` markdown
+Video-Ranker/
 │
-├── video_ranking_model.ipynb     # Jupyter notebook with the entire workflow
+├── Video-Ranker.ipynb     # Jupyter notebook with the entire workflow
 ├── pyproject.toml                # Poetry configuration file
 ├── poetry.lock                   # Poetry lock file with exact versions of dependencies
 ├── requirements.txt              # Python dependencies
 ├── README.md                     # Project documentation
 │
 └── data/                         # Directory to store downloaded data files
+```
 
 ## Contributing
 
